@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Домашняя работа</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="colors">
+    <div class="s">
+        <div class="red color"></div>
+        <div class="yellow color"></div>
+        <div class="green color"></div>
+    </div>
+    <div class="s2"></div>
+</div>
+<button id="play">Play</button>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.animate-colors-min.js"></script>
+
+    <script>
+        let playBtn = $("#play");
+        let red = $(".red");
+        let yellow = $(".yellow");
+        let green = $(".green");
+    playBtn.click(function () {
+        yellow.animate({
+            backgroundColor: "rgb(161, 161, 161)"
+        }, 1000);
+        green.animate({
+            backgroundColor: "rgb(161, 161, 161)"
+        }, 1000);
+        animate();
+        setTimeout(()=>{
+            yellow.animate({
+                backgroundColor: "rgb(255, 252, 64)"
+            }, 1000);
+            green.animate({
+                backgroundColor: "rgb(23, 119, 29)"
+            }, 1000);
+            red.animate({
+                backgroundColor: "rgb(251, 0, 20)"
+            }, 1000);
+        },21000);
+    });
+        function animate() {
+            setTimeout(()=>{
+                red.animate({
+                    backgroundColor: "rgb(161, 161, 161)"
+                }, 1000);
+            },2000);
+            setTimeout(()=>{
+                red.animate({
+                    backgroundColor: "rgb(251, 0, 20)"
+                }, 1000);
+            },3000);
+            setTimeout(()=>{
+                red.animate({
+                    backgroundColor: "rgb(161, 161, 161)"
+                }, 1000);
+            },4000);
+            setTimeout(()=>{
+                red.animate({
+                    backgroundColor: "rgb(251, 0, 20)"
+                }, 1000);
+            },5000);
+            setTimeout(()=>{
+                red.animate({
+                    backgroundColor: "rgb(161, 161, 161)"
+                }, 1000);
+            },6000);
+            setTimeout(()=>{
+                yellow.animate({
+                    backgroundColor: "rgb(255, 252, 64)"
+                }, 1000);
+            },7000);
+            setTimeout(()=>{
+                yellow.animate({
+                    backgroundColor: "rgb(161, 161, 161)"
+                }, 1000);
+            },9000);
+            setTimeout(()=>{
+                yellow.animate({
+                    backgroundColor: "rgb(255, 252, 64)"
+                }, 1000);
+            },10000);
+            setTimeout(()=>{
+                yellow.animate({
+                    backgroundColor: "rgb(161, 161, 161)"
+                }, 1000);
+            },11000);
+            setTimeout(()=>{
+                yellow.animate({
+                    backgroundColor: "rgb(255, 252, 64)"
+                }, 1000);
+            },12000);
+            setTimeout(()=>{
+                yellow.animate({
+                    backgroundColor: "rgb(161, 161, 161)"
+                }, 1000);
+            },13000);
+            setTimeout(()=>{
+                green.animate({
+                    backgroundColor: "rgb(23, 119, 29)"
+                }, 1000);
+            },14000);
+            setTimeout(()=>{
+                green.animate({
+                    backgroundColor: "rgb(161, 161, 161)"
+                }, 1000);
+            },16000);
+            setTimeout(()=>{
+                green.animate({
+                    backgroundColor: "rgb(23, 119, 29)"
+                }, 1000);
+            },17000);
+            setTimeout(()=>{
+                green.animate({
+                    backgroundColor: "rgb(161, 161, 161)"
+                }, 1000);
+            },18000);
+            setTimeout(()=>{
+                green.animate({
+                    backgroundColor: "rgb(23, 119, 29)"
+                }, 1000);
+            },19000);
+            setTimeout(()=>{
+                green.animate({
+                    backgroundColor: "rgb(161, 161, 161)"
+                }, 1000);
+            },20000);
+        };
+
+    </script>
+</body>
+</html>

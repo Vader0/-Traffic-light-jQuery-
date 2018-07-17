@@ -1,0 +1,32 @@
+.colors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.color{
+    background: darkgray;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 35px;
+}
+.s{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;
+}
+.s2{
+    background-color: darkgray;
+    height: 250px;
+    width: 50px;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
